@@ -105,7 +105,6 @@
         <div
           class="spotlight spotlight-fullsize spotlight-chapter-view overlap"
         >
-          <!-- <img class="alt-bg" src="@/assets/img/BG1.jpg" alt="" /> -->
           <div
             ref="chapter-2"
             class="alt-bg"
@@ -147,13 +146,26 @@
         </div>
       </div>
       <div class="article article-part">
-        <div class="spotlight spotlight-fullsize">
-          <h1 class="title font-black" id="要種電了，那些做塭仔的人們呢？">
-            要種電了，<br />那些做塭仔的人們呢？
-          </h1>
-          <p class="paragraph">
-            除了候鳥這群遊子，七股更有站穩一輩子的居民。當一面面太陽能板蓋上魚塭，漁民們也不禁擔憂：我還能保有原本的工作嗎？
-          </p>
+        <div
+          class="spotlight spotlight-fullsize spotlight-chapter-view overlap"
+        >
+          <div
+            ref="chapter-3"
+            class="alt-bg"
+            :style="{
+              'background-image': `url(${require('@/assets/img/BG3.jpg')})`,
+              transform: `translateX(${chaptersArgCollection[2].offsetLeft}px)`,
+              filter: `grayscale(${chaptersArgCollection[2].grayscale})`
+            }"
+          />
+          <div class="content">
+            <h1 class="title font-black">
+              要種電了，<br />那些做塭仔的人們呢？
+            </h1>
+            <p class="paragraph">
+              除了候鳥這群遊子，七股更有站穩一輩子的居民。當一面面太陽能板蓋上魚塭，漁民們也不禁擔憂：我還能保有原本的工作嗎？
+            </p>
+          </div>
         </div>
         <div class="spotlight spotlight-reader">
           <p class="paragraph">
@@ -263,17 +275,27 @@
         </div>
       </div>
       <div class="article article-part">
-        <div class="spotlight spotlight-fullsize">
-          <h1
-            class="font-black"
-            id="七股環境條件嚴峻地貌與生態特殊性成選址關鍵"
-          >
-            七股環境條件嚴峻<br />地貌與生態特殊性成選址關鍵
-          </h1>
-          <p class="paragraph">
-            郭永慶站在竹筏上撐篙，輕輕地划過魚塭水面，他以多年經驗目測魚塭水質、判斷水深30公分下的文蛤生長狀況。在全台文蛤產量中，七股就占了三成，這裡更是全台唯一不抽取地下水養殖的地區。楊惠欽感嘆道：「西海岸幾乎開發的差不多了，只剩七股保留原始地貌。」
-            為配合土地生命週期，當地漁民採取引海水灌溉的淺坪低密度養殖法，友善利用資源，並與當地生態共構人地互存的景象。
-          </p>
+        <div
+          class="spotlight spotlight-fullsize spotlight-chapter-view overlap"
+        >
+          <div
+            ref="chapter-4"
+            class="alt-bg"
+            :style="{
+              'background-image': `url(${require('@/assets/img/BG4.jpg')})`,
+              transform: `translateX(${chaptersArgCollection[3].offsetLeft}px)`,
+              filter: `grayscale(${chaptersArgCollection[3].grayscale})`
+            }"
+          />
+          <div class="content">
+            <h1 class="title font-black">
+              七股環境條件嚴峻<br />地貌與生態特殊性成選址關鍵
+            </h1>
+            <p class="paragraph">
+              郭永慶站在竹筏上撐篙，輕輕地划過魚塭水面，他以多年經驗目測魚塭水質、判斷水深30公分下的文蛤生長狀況。在全台文蛤產量中，七股就占了三成，這裡更是全台唯一不抽取地下水養殖的地區。楊惠欽感嘆道：「西海岸幾乎開發的差不多了，只剩七股保留原始地貌。」
+              為配合土地生命週期，當地漁民採取引海水灌溉的淺坪低密度養殖法，友善利用資源，並與當地生態共構人地互存的景象。
+            </p>
+          </div>
         </div>
         <div class="spotlight spotlight-reader">
           <p class="paragraph">
@@ -312,9 +334,26 @@
         </div>
       </div>
       <div class="article article-part">
-        <div class="spotlight spotlight-fullsize">
-          <h1 class="title font-black" id="漁電共生異言堂">漁電共生異言堂</h1>
-          <p class="paragraph">七股要推漁電共生，他們有話說！</p>
+        <div
+          class="spotlight spotlight-fullsize spotlight-chapter-view overlap"
+        >
+          <div
+            ref="chapter-5"
+            class="alt-bg"
+            :style="{
+              'background-image': `url(${require('@/assets/img/BG5.jpg')})`,
+              transform: `translateX(${chaptersArgCollection[4].offsetLeft}px)`,
+              filter: `grayscale(${chaptersArgCollection[4].grayscale})`
+            }"
+          />
+          <div class="content">
+            <h1 class="title font-black">
+              漁電共生異言堂
+            </h1>
+            <p class="paragraph">
+              七股要推漁電共生，他們有話說！
+            </p>
+          </div>
         </div>
         <div class="spotlight spotlight-reader">
           <p class="paragraph">
@@ -402,13 +441,26 @@
         </div>
       </div>
       <div class="article article-part">
-        <div class="spotlight spotlight-fullsize">
-          <h1 class="title font-black" id="地面型光電選址怎麼做？">
-            地面型光電選址怎麼做？
-          </h1>
-          <p class="paragraph">
-            近幾年，地面型光電面臨諸多爭議，使設置腳步緩慢。設施究竟蓋在哪裡好？我們統整地球公民基金會與政大地政學系助理教授戴秀雄的建議，形成一套選址評估的機制。透過這些步驟，盼能在推動太陽光電與能源轉型的同時，找到適合的區位，讓光電業者不碰壁，也能減少案場的環境與社會破壞，達成綠能台灣的目標。
-          </p>
+        <div
+          class="spotlight spotlight-fullsize spotlight-chapter-view overlap"
+        >
+          <div
+            ref="chapter-6"
+            class="alt-bg"
+            :style="{
+              'background-image': `url(${require('@/assets/img/BG6.jpg')})`,
+              transform: `translateX(${chaptersArgCollection[5].offsetLeft}px)`,
+              filter: `grayscale(${chaptersArgCollection[5].grayscale})`
+            }"
+          />
+          <div class="content">
+            <h1 class="title font-black">
+              地面型光電選址怎麼做？
+            </h1>
+            <p class="paragraph">
+              近幾年，地面型光電面臨諸多爭議，使設置腳步緩慢。設施究竟蓋在哪裡好？我們統整地球公民基金會與政大地政學系助理教授戴秀雄的建議，形成一套選址評估的機制。透過這些步驟，盼能在推動太陽光電與能源轉型的同時，找到適合的區位，讓光電業者不碰壁，也能減少案場的環境與社會破壞，達成綠能台灣的目標。
+            </p>
+          </div>
         </div>
         <div class="spotlight spotlight-reader">
           <p class="paragraph">&lt;% Blueprint %&gt;</p>
@@ -444,7 +496,7 @@ export default class Home extends Vue {
   private chapterOneOffsetLeft = 0;
   private chapterOneGrayscale = 0;
 
-  private chaptersArgCollection: ChapterArg[] = Array(2)
+  private chaptersArgCollection: ChapterArg[] = Array(6)
     .fill(null)
     .map((_, index) => ({
       hook: `chapter-${index + 1}`,
@@ -454,6 +506,7 @@ export default class Home extends Vue {
     }));
 
   private mounted(): void {
+    this.scrollHandler();
     window.addEventListener("scroll", this.scrollHandler);
   }
 
