@@ -1,0 +1,61 @@
+.author {
+  &-container {
+    color: darken($dark-2, 10%);
+    display: grid;
+    height: 64px;
+    width: auto;
+    margin: 5px;
+    grid-template-areas:
+      "avatar unit"
+      "avatar namelist";
+    grid-template-columns: 64px 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 8px;
+  }
+
+  &.unit,
+  &.name-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &.unit {
+    grid-area: unit;
+    justify-content: flex-end;
+
+    > p {
+      font-size: 24px;
+    }
+  }
+
+  &.name-list {
+    grid-area: namelist;
+    justify-content: flex-start;
+
+    > p {
+      font-size: 16px;
+    }
+  }
+
+  &.avatar {
+    grid-area: avatar;
+    position: relative;
+    display: inline-flex;
+    height: 64px;
+    width: 64px;
+    @include flexBoxCenter;
+    box-sizing: border-box;
+    padding: 2px;
+    border: 2px solid $dark-2;
+    border-radius: 50%;
+    overflow: hidden;
+
+    &-img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+}

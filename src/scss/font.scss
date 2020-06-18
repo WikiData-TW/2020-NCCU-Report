@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&display=swap');
 
 h1,
 h2,
@@ -12,7 +13,7 @@ ul,
 li,
 span {
   line-height: 1;
-  font-family: Noto Sans TC, Din, Microsoft JhengHei, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Noto Serif TC, Din, Microsoft JhengHei, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -28,6 +29,10 @@ span {
 
   &-italic {
     font-style: italic;
+  }
+
+  &-sans {
+    font-family: Noto Sans TC, Din, Microsoft JhengHei, Avenir, Helvetica, Arial, serif;
   }
 }
 

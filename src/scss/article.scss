@@ -1,0 +1,68 @@
+.article {
+  &-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  &-banner {
+    height: calc(100vh - 400px);
+    width: 100%;
+    z-index: 0;
+  }
+
+  &-header,
+  &-part {
+    width: $article-width;
+    z-index: 1;
+  }
+
+  &-header {
+    padding: 4rem 0;
+    color: $dark-1;
+    background-color: $white;
+
+    .title {
+      margin-bottom: 1.5rem;
+      font-size: 64px;
+      color: $black;
+    }
+
+    .subtitle {
+      margin-bottom: 2rem;
+      font-size: 26px;
+      line-height: 1.4;
+    }
+
+    .quote {
+      color: darken($dark-2, 20%);
+      padding-left: 1.5rem;
+      border-left: 5px solid $dark-2;
+      box-sizing: border-box;
+    }
+  }
+
+  &-part {
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-content: flex-end;
+      margin: 2rem 0 1rem 0;
+      font-size: 32px;
+      letter-spacing: 2pt;
+      line-height: 1.4;
+    }
+
+    .paragraph {
+      margin: 1rem 0;
+      font-size: 15.6px;
+      letter-spacing: 1pt;
+      line-height: 1.6;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@mixin imgBackground {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+@mixin altImgBackground {
+  @include imgBackground;
+  background-attachment: fixed;
+}
+
+@mixin flexBoxCenter {
+  justify-content: center;
+    align-items: center;
+}
