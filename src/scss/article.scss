@@ -138,15 +138,16 @@
     appearance: none;
     border: none;
     margin: 4rem 0;
+    z-index: 1;
     
     &:before {
-      position: absolute;
       content: '．．．．．';
       font-size: 24px;
       font-weight: 700;
       color: $dark-2;
       line-height: 1;
       letter-spacing: 32px;
+      z-index: 1;
     }
   }
 }
