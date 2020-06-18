@@ -12,8 +12,9 @@
     width: calc(100% / 16);
     @include imgBackground;
     filter: grayscale(100%);
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out 0.3s;
     overflow-y: hidden;
+    z-index: 1;
 
     @media screen and (max-width: 1280px) {
       width: 0%;
@@ -21,18 +22,20 @@
 
     &:before {
       position: absolute;
-      content: '';
+      content: "";
       width: 0%;
       bottom: 0;
       border-bottom: 5px solid $black;
-      box-shadow: 1px -1px 10px rgba($black, .75);
-      transition: width linear 10s;
+      box-shadow: 1px -1px 10px rgba($black, 0.75);
+      transition: width linear 5s;
       opacity: 0;
     }
 
-    &.light::before {
-      border-bottom: 5px solid $white;
-      box-shadow: 1px -1px 10px rgba($white, .75);
+    &.light {
+      &::before {
+        border-bottom: 5px solid $white;
+        box-shadow: 1px -1px 10px rgba($white, 0.75);
+      }
     }
 
     &:hover,
@@ -40,10 +43,58 @@
       filter: none;
       width: 100%;
 
+      > .banner-showbox {
+        opacity: 1;
+        transform: scale(1);
+      }
+
       &:before {
         opacity: 1;
         width: 100%;
       }
+    }
+  }
+
+  &-showbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    bottom: 2rem;
+    left: 2rem;
+    width: calc(100% - 2rem * 2);
+    transform: scale(0);
+    opacity: 0;
+    transition: transform cubic-bezier(1, 0, 1, 0) 0.5s;
+
+    @media screen and (max-width: 767px) {
+      bottom: 1.2rem;
+      left: 1rem;
+      width: calc(100% - 1rem * 2);
+    }
+
+    > img {
+      margin-top: 1.5rem;
+      width: calc(100% - 2rem * 2);
+
+      @media screen and (max-width: 767px) {
+        margin-top: 1rem;
+        max-width: calc(100% - 1rem * 2);
+      }
+    }
+  }
+
+  &-slogan {
+    text-align: center;
+    font-size: 32px;
+    color: $white;
+    text-shadow: 0 0 3px $black;
+    line-height: 1.4;
+
+    @media screen and (max-width: 767px) {
+      text-align: left;
+      font-size: 24px;
     }
   }
 }

@@ -14,7 +14,16 @@
       }"
       @mouseover="activeBannerIndex = index"
       class="banner banner-img"
-    />
+    >
+      <div class="banner banner-showbox">
+        <h3 class="banner banner-slogan font-sans">{{ banner.slogan }}</h3>
+        <img
+          v-if="banner.subImage"
+          :src="require(`@/assets/img/${banner.subImage}`)"
+          alt=""
+        />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,48 +38,68 @@ export default class Banner extends Vue {
     {
       img: "banner0.png",
       gravity: "top right",
-      progressStyle: "dark"
+      progressStyle: "light",
+      slogan: "",
+      subImage: ""
     },
     {
       img: "banner1.png",
       gravity: "bottom left",
-      progressStyle: "light"
+      progressStyle: "light",
+      slogan: "漁電共生規劃於南臺灣廣泛推行，臺南七股亦為預定地之一。",
+      subImage: ""
     },
     {
       img: "banner2.png",
       gravity: "center center",
-      progressStyle: "dark"
+      progressStyle: "dark",
+      slogan:
+        "綠能政策同時具龐大的經濟效益，帶動光電業者進駐七股，以高價圈地。",
+      subImage: ""
     },
     {
       img: "banner3.png",
       gravity: "bottom right",
-      progressStyle: "light"
+      progressStyle: "light",
+      slogan:
+        "政府雖然規範漁獲量必須打到原產量的七成，漁民仍憂心生計可能受到影響。",
+      subImage: ""
     },
     {
       img: "banner4.png",
       gravity: "center center",
-      progressStyle: "light"
+      progressStyle: "light",
+      slogan:
+        "目前七股有約 450 公頃的漁電共生案場待推動，相當於 18 座大安森林公園的面積。",
+      subImage: "icon/park-example.svg"
     },
     {
       img: "banner5.png",
       gravity: "top left",
-      progressStyle: "dark"
+      progressStyle: "dark",
+      slogan: "七股長期採友善環境方式養殖文蛤，漁民擔憂漁場可能被污染、破壞。",
+      subImage: ""
     },
     {
       img: "banner6.png",
       gravity: "bottom center",
-      progressStyle: "dark"
+      progressStyle: "dark",
+      slogan: "「我們不是反對漁電共生，只是想找到一個適合的地方推動他。」",
+      subImage: ""
     },
     {
       img: "banner7.png",
       gravity: "bottom center",
-      progressStyle: "light"
+      progressStyle: "light",
+      slogan:
+        "環保團體也擔心太陽能板架設後會影響黑面琵鷺覓食，危及當地生態環境。",
+      subImage: ""
     }
   ];
 
   private mounted(): void {
     setTimeout(this.timmerHandler, 100);
-    setInterval(this.timmerHandler, 10000);
+    setInterval(this.timmerHandler, 5000);
   }
 
   private timmerHandler(): void {
