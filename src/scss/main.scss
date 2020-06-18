@@ -11,3 +11,7 @@
 @import "article";
 @import "author";
 @import "footer";
+
+body {
+  overflow-x: hidden;
+}
