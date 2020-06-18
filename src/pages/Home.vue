@@ -563,9 +563,6 @@ interface ChapterArg {
 
 @Component
 export default class Home extends Vue {
-  private chapterOneOffsetLeft = 0;
-  private chapterOneGrayscale = 0;
-
   private chaptersArgCollection: ChapterArg[] = Array(6)
     .fill(null)
     .map((_, index) => ({
@@ -582,9 +579,10 @@ export default class Home extends Vue {
 
   private scrollHandler(): void {
     const scroll = document.documentElement.scrollTop;
+    const screenWidth = document.documentElement.clientWidth;
     const screenHeight = document.documentElement.clientHeight;
     this.chaptersArgCollection.forEach(chapter => {
-      this.chapterProcessor(chapter, scroll, screenHeight, 0.8);
+      this.chapterProcessor(chapter, scroll, screenHeight, screenWidth);
     });
   }
 
@@ -592,13 +590,19 @@ export default class Home extends Vue {
     chapter: ChapterArg,
     scroll: number,
     screenHeight: number,
-    accuracy: number
+    screenWidth: number
   ): void {
     const targetOffset = (this.$refs[chapter.hook] as HTMLElement).offsetTop;
+    const targetWidth = (this.$refs[chapter.hook] as HTMLElement).clientWidth;
 
-    if (scroll > targetOffset - screenHeight && scroll <= targetOffset) {
+    if (scroll > targetOffset - screenHeight && screenWidth > 1360) {
+      const offset =
+        (scroll - (targetOffset - screenHeight)) *
+        (screenWidth / targetWidth) *
+        -1 *
+        1.44;
       this.chaptersArgCollection[chapter.index - 1].offsetLeft =
-        (scroll - (targetOffset - screenHeight)) * accuracy * -1;
+        offset * -1 > 800 ? -800 : offset;
     }
 
     if (scroll >= targetOffset - 200 && scroll < targetOffset + 800) {
