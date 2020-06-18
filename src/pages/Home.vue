@@ -548,11 +548,13 @@
         </div>
       </div>
     </article>
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Footer from "@/components/layout/Footer.vue";
 
 interface ChapterArg {
   hook: string;
@@ -561,7 +563,11 @@ interface ChapterArg {
   index: number;
 }
 
-@Component
+@Component({
+  components: {
+    Footer
+  }
+})
 export default class Home extends Vue {
   private chaptersArgCollection: ChapterArg[] = Array(6)
     .fill(null)
