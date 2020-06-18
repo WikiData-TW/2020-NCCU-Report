@@ -82,7 +82,7 @@
     display: block;
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 1rem 0;
     box-sizing: border-box;
 
     &.float {
@@ -94,6 +94,7 @@
         float: right;
       }
 
+      padding: 1rem;
       width: 50%;
     }
 
