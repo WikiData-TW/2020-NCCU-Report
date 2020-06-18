@@ -13,7 +13,7 @@
       </div>
       <div class="article article-header">
         <h1 class="title font-black">七股魚塭的發電夢</h1>
-        <h2 class="subtitle font-bold font-sans quote">
+        <h2 class="subtitle font-bold quote">
           太陽能板與養殖生態，<br />是共存還是相爭？
         </h2>
         <div class="author author-container">
@@ -44,7 +44,7 @@
             }"
           />
           <div class="content">
-            <h1 class="title font-black">
+            <h1 class="title font-black font-sans">
               理想大於現實的光電目標<br />預定地未經盤點就開辦？
             </h1>
             <p class="paragraph">
@@ -115,7 +115,7 @@
             }"
           />
           <div class="content">
-            <h1 class="title font-black">
+            <h1 class="title font-black font-sans">
               不再「黑琵」？太陽能板建置恐不利七股生態
             </h1>
             <p class="paragraph">
@@ -159,7 +159,7 @@
             }"
           />
           <div class="content">
-            <h1 class="title font-black">
+            <h1 class="title font-black font-sans">
               要種電了，<br />那些做塭仔的人們呢？
             </h1>
             <p class="paragraph">
@@ -288,7 +288,7 @@
             }"
           />
           <div class="content">
-            <h1 class="title font-black">
+            <h1 class="title font-black font-sans">
               七股環境條件嚴峻<br />地貌與生態特殊性成選址關鍵
             </h1>
             <p class="paragraph">
@@ -347,7 +347,7 @@
             }"
           />
           <div class="content">
-            <h1 class="title font-black">
+            <h1 class="title font-black font-sans">
               漁電共生異言堂
             </h1>
             <p class="paragraph">
@@ -454,7 +454,7 @@
             }"
           />
           <div class="content">
-            <h1 class="title font-black">
+            <h1 class="title font-black font-sans">
               地面型光電選址怎麼做？
             </h1>
             <p class="paragraph">
