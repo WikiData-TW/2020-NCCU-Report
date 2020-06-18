@@ -13,7 +13,7 @@
       </div>
       <div class="article article-header">
         <h1 class="title font-black">七股魚塭的發電夢</h1>
-        <h2 class="subtitle font-bold quote">
+        <h2 class="subtitle font-bold font-sans quote">
           太陽能板與養殖生態，<br />是共存還是相爭？
         </h2>
         <div class="author author-container">
@@ -34,14 +34,13 @@
         <div
           class="spotlight spotlight-fullsize spotlight-chapter-view overlap"
         >
-          <!-- <img class="alt-bg" src="@/assets/img/BG1.jpg" alt="" /> -->
           <div
             ref="chapter-1"
             class="alt-bg"
             :style="{
               'background-image': `url(${require('@/assets/img/BG1.jpg')})`,
-              transform: `translateX(${chapterOneOffsetLeft}px)`,
-              filter: `grayscale(${chapterOneGrayscale})`
+              transform: `translateX(${chaptersArgCollection[0].offsetLeft}px)`,
+              filter: `grayscale(${chaptersArgCollection[0].grayscale})`
             }"
           />
           <div class="content">
@@ -56,7 +55,10 @@
           </div>
         </div>
         <div class="spotlight spotlight-reader">
-          <h2 class="subtitle font-bold" id="臺灣近十年來再生能源發購電量">
+          <h2
+            class="subtitle font-bold font-sans"
+            id="臺灣近十年來再生能源發購電量"
+          >
             臺灣近十年來再生能源發購電量
           </h2>
           <p class="paragraph">
@@ -65,7 +67,20 @@
             20%；同年度，光電預計要占再生能源的發電量高達四成。太陽能極可能是未來的綠電主力。
           </p>
           <!-- <p class="paragraph">&lt;% Chart %&gt;</p> -->
-          <h2 class="subtitle font-bold" id="太陽光電推動目標容量配比差異">
+          <figure class="article article-figure float float-right">
+            <img
+              src="@/assets/img/solar-panel-target.png"
+              class="article article-figure-img"
+              alt="太陽光電推動目標容量配比差異"
+            />
+            <figcaption class="article article-figure-caption">
+              <span>不同類型的太陽光電推動目標容量配比差異</span>
+            </figcaption>
+          </figure>
+          <h2
+            class="subtitle font-bold font-sans"
+            id="太陽光電推動目標容量配比差異"
+          >
             太陽光電推動目標容量配比差異
           </h2>
           <p class="paragraph">
@@ -74,12 +89,6 @@
               href="%E5%AE%B9%E9%87%8F%E7%82%BA%E7%99%BC%E9%9B%BB%E6%A9%9F%E7%B5%84%E9%A0%90%E8%A8%88%E7%94%A2%E7%94%9F%E7%9A%84%E9%9B%BB%E9%87%8F%EF%BC%8C%E5%85%B6%E4%B9%98%E4%BB%A5%E8%A8%AD%E5%82%99%E5%88%A9%E7%94%A8%E7%8E%87%EF%BC%88%E5%8D%B3%E5%AF%A6%E9%9A%9B%E9%81%8B%E8%BD%89%E6%99%82%E6%95%B8%EF%BC%89%E5%BE%8C%E6%89%8D%E7%82%BA%E5%AF%A6%E9%9A%9B%E7%99%BC%E9%9B%BB%E9%9B%BB%E9%87%8F%E3%80%82"
               >^1</a
             >，調降地面型光電的目標容量。
-          </p>
-          <p class="paragraph">
-            <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/img/pg2pic.png"
-              alt='{title:"太陽光電推動目標容量配比差異",style:"float-left"}'
-            />
           </p>
           <p class="paragraph">
             國立政治大學地政學系助理教授戴秀雄指出，政府先預設光電的發電量目標，再開始盤點所需的土地，「怎麼可能是用裝置容量倒回來算所需面積？」他直言，「如果臺灣沒有適合的地點可以種電，那你還算所需面積，根本是莫名其妙的事情。」
@@ -93,19 +102,30 @@
         </div>
       </div>
       <div class="article article-part">
-        <div class="spotlight spotlight-fullsize">
-          <h1
-            class="title font-black"
-            id="不再「黑琵」？太陽能板建置恐不利七股生態"
-          >
-            不再「黑琵」？太陽能板建置恐不利七股生態
-          </h1>
-          <p class="paragraph">
-            台南七股是全世界最大的黑面琵鷺聚集地，如今每年有 4
-            千多隻黑面琵鷺來台過冬。國際級濕地受國家公權力保護，不得任意開發；但一條路寬
-            20
-            公尺的柏油路外，漁民賴以為生的文蛤養殖池卻可能面臨大量太陽能板的進駐，生態岌岌可危。
-          </p>
+        <div
+          class="spotlight spotlight-fullsize spotlight-chapter-view overlap"
+        >
+          <!-- <img class="alt-bg" src="@/assets/img/BG1.jpg" alt="" /> -->
+          <div
+            ref="chapter-2"
+            class="alt-bg"
+            :style="{
+              'background-image': `url(${require('@/assets/img/BG2.jpg')})`,
+              transform: `translateX(${chaptersArgCollection[1].offsetLeft}px)`,
+              filter: `grayscale(${chaptersArgCollection[1].grayscale})`
+            }"
+          />
+          <div class="content">
+            <h1 class="title font-black">
+              不再「黑琵」？太陽能板建置恐不利七股生態
+            </h1>
+            <p class="paragraph">
+              台南七股是全世界最大的黑面琵鷺聚集地，如今每年有 4
+              千多隻黑面琵鷺來台過冬。國際級濕地受國家公權力保護，不得任意開發；但一條路寬
+              20
+              公尺的柏油路外，漁民賴以為生的文蛤養殖池卻可能面臨大量太陽能板的進駐，生態岌岌可危。
+            </p>
+          </div>
         </div>
         <div class="spotlight spotlight-reader">
           <p class="paragraph">&lt;% InteractiveMap %&gt;</p>
@@ -318,7 +338,7 @@
           >
             光電設施選址審查不周<br />「環社檢核」應運而生
           </h1>
-          <h2 class="subtitle font-bold" id="現行漁電共生申請流程">
+          <h2 class="subtitle font-bold font-sans" id="現行漁電共生申請流程">
             現行漁電共生申請流程
           </h2>
           <p class="paragraph">
@@ -349,7 +369,10 @@
             為彌補審核制度的不足，並解決地面型光電設施的選址疑慮，七股居民與環團草擬「環境與社會檢核」（以下簡稱「環社檢核」），檢核項目包括環境衝擊、社會影響、民眾參與及資訊公開等部分，供政府與業者參考。經過民間與經濟部的磋商後，今年四月，環社檢核
             1.0 版本出爐。
           </p>
-          <h2 class="subtitle font-bold" id="為什麼七股要推動環社檢核">
+          <h2
+            class="subtitle font-bold font-sans"
+            id="為什麼七股要推動環社檢核"
+          >
             為什麼七股要推動環社檢核
           </h2>
           <p class="paragraph">
@@ -364,7 +387,10 @@
           <p class="paragraph">
             楊惠欽強調，環社檢核也能讓光電業者不踩雷區，以免投資與整合完成，卻發現案場有種電疑慮。業者為了要符合環社檢核的項目，必得對選址有更多元的人文、生態面考量，避免七股的困境在他處重演。
           </p>
-          <h2 class="subtitle font-bold" id="未來魚電共生專區申請流程">
+          <h2
+            class="subtitle font-bold font-sans"
+            id="未來魚電共生專區申請流程"
+          >
             未來魚電共生專區申請流程
           </h2>
           <p class="paragraph">
@@ -406,10 +432,26 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 
+interface ChapterArg {
+  hook: string;
+  offsetLeft: number;
+  grayscale: number;
+  index: number;
+}
+
 @Component
 export default class Home extends Vue {
   private chapterOneOffsetLeft = 0;
   private chapterOneGrayscale = 0;
+
+  private chaptersArgCollection: ChapterArg[] = Array(2)
+    .fill(null)
+    .map((_, index) => ({
+      hook: `chapter-${index + 1}`,
+      offsetLeft: 0,
+      grayscale: 0,
+      index: index + 1
+    }));
 
   private mounted(): void {
     window.addEventListener("scroll", this.scrollHandler);
@@ -418,15 +460,27 @@ export default class Home extends Vue {
   private scrollHandler(): void {
     const scroll = document.documentElement.scrollTop;
     const screenHeight = document.documentElement.clientHeight;
-    const chapterOneOffset = (this.$refs["chapter-1"] as HTMLElement).offsetTop;
-    const accr = 0.8;
+    this.chaptersArgCollection.forEach(chapter => {
+      this.chapterProcessor(chapter, scroll, screenHeight, 0.8);
+    });
+  }
 
-    if (scroll <= screenHeight * 2) {
-      this.chapterOneOffsetLeft = scroll * accr * -1;
+  private chapterProcessor(
+    chapter: ChapterArg,
+    scroll: number,
+    screenHeight: number,
+    accuracy: number
+  ): void {
+    const targetOffset = (this.$refs[chapter.hook] as HTMLElement).offsetTop;
+
+    if (scroll > targetOffset - screenHeight && scroll <= targetOffset) {
+      this.chaptersArgCollection[chapter.index - 1].offsetLeft =
+        (scroll - (targetOffset - screenHeight)) * accuracy * -1;
     }
 
-    if (scroll >= chapterOneOffset - 400 && scroll < chapterOneOffset + 800) {
-      this.chapterOneGrayscale = (scroll - chapterOneOffset - 400) / 800 + 1;
+    if (scroll >= targetOffset - 200 && scroll < targetOffset + 800) {
+      this.chaptersArgCollection[chapter.index - 1].grayscale =
+        (scroll - targetOffset - 200) / 800 + 1;
     }
   }
 }
