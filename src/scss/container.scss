@@ -5,6 +5,7 @@
   position: relative;
   flex-direction: column;
   align-items: center;
+  background-color: $dark-4;
 
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
