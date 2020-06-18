@@ -21,7 +21,7 @@
         z-index: 0;
 
         @supports not (-moz-animation: none) {
-          background-size: initial;
+          background-size: 200%;
         }
       }
 
