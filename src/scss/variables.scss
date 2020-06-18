@@ -1,1 +1,5 @@
 $article-width: 1024px;
+$article-width-tablet: 768px;
+$article-width-mini-tablet: 640px;
+$article-width-large-mobile: calc(100vw - 2rem * 2);
+$article-width-mobile: calc(100vw - 1rem * 2);

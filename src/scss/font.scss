@@ -13,9 +13,13 @@ ul,
 li,
 span {
   line-height: 1;
-  font-family: Noto Serif TC, Din, Microsoft JhengHei, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Noto Serif TC, Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   letter-spacing: 1px;
+  
+  @media screen and (max-width: 640px) {
+    font-family: Noto Sans TC, Din, Microsoft JhengHei, Avenir, Helvetica, Arial, sans-serif;
+  }
 }
 
 .font {
@@ -32,7 +36,7 @@ span {
   }
 
   &-sans {
-    font-family: Noto Sans TC, Din, Microsoft JhengHei, Avenir, Helvetica, Arial, serif;
+    font-family: Noto Sans TC, Din, Microsoft JhengHei, Avenir, Helvetica, Arial, sans-serif;
   }
 }
 

@@ -23,6 +23,27 @@
         @supports not (-moz-animation: none) {
           background-size: 200%;
         }
+
+        @media screen and (max-width: 1360px) {
+          width: 100%;
+          margin-left: calc((100vw - #{$article-width}) / 2 * -1);
+        }
+
+        @media screen and (max-width: 1200px) {
+          margin-left: calc((100vw - #{$article-width-tablet}) / 2 * -1);
+        }
+
+        @media screen and (max-width: 900px) {
+          margin-left: calc((100vw - #{$article-width-mini-tablet}) / 2 * -1);
+        }
+
+        @media screen and (max-width: 767px) {
+          margin-left: calc((100vw - #{$article-width-large-mobile}) / 2 * -1);
+        }
+
+        @media screen and (max-width: 475px) {
+          margin-left: calc((100vw - #{$article-width-mobile}) / 2 * -1);
+        }
       }
 
       > .content {
@@ -38,12 +59,38 @@
         box-sizing: border-box;
         z-index: 1;
 
+        @media screen and (max-width: 1280px) {
+          margin: calc((100vw - #{$article-width}) / 2) 0;
+        }
+
+        @media screen and (max-width: 1200px) {
+          margin: calc((100vw - #{$article-width-tablet}) / 2) 0;
+        }
+
+        @media screen and (max-width: 900px) {
+          margin: calc((100vw - #{$article-width-mini-tablet}) / 2) 0;
+        }
+
+        @media screen and (max-width: 767px) {
+          margin: calc((100vw - #{$article-width-large-mobile}) / 2) 0;
+        }
+
+        @media screen and (max-width: 475px) {
+          width: $article-width-mobile;
+          margin: calc((100vw - #{$article-width-mobile}) / 2) 0;
+          padding: 1.2rem;
+        }
+
         .title {
           margin-top: 0;
         }
 
         .paragraph {
           margin-bottom: 0;
+
+          @media screen and (max-width: 640px) {
+            margin-top: 0;
+          }
         }
       }
     }

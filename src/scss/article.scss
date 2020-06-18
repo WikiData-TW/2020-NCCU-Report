@@ -13,12 +13,32 @@
     height: calc(100vh - 400px);
     width: 100%;
     z-index: 0;
+
+    @media screen and (max-width: 475px) {
+      height: calc(100vh - 375px);
+    }
   }
 
   &-header,
   &-part {
     width: $article-width;
     z-index: 1;
+
+    @media screen and (max-width: 1200px) {
+      width: $article-width-tablet;
+    }
+
+    @media screen and (max-width: 900px) {
+      width: $article-width-mini-tablet;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: $article-width-large-mobile;
+    }
+
+    @media screen and (max-width: 475px) {
+      width: $article-width-mobile;
+    }
   }
 
   &-header {
@@ -30,6 +50,10 @@
       margin-bottom: 1.5rem;
       font-size: 64px;
       color: $black;
+
+      @media screen and (max-width: 475px) {
+        font-size: 48px;
+      }
     }
 
     .subtitle {
@@ -79,6 +103,16 @@
         > img {
           width: 100%;
         }
+
+        @media screen and (max-width: 575px) {
+          > span {
+            display: inherit;
+          }
+
+          > img {
+            display: none;
+          }
+        }
       }
     }
 
@@ -109,6 +143,16 @@
 
       padding: 1rem;
       width: 50%;
+
+      @media screen and (max-width: 640px) {
+        width: 100%;
+        padding: 1rem 0;
+        padding-top: 8rem;
+        
+        & + h2.subtitle {
+          position: absolute;
+        }
+      }
     }
 
     &-img {
@@ -139,6 +183,10 @@
     border: none;
     margin: 4rem 0;
     z-index: 1;
+
+    @media screen and (max-width: 475px) {
+      margin: 2.5rem 0;
+    }
     
     &:before {
       content: '．．．．．';
