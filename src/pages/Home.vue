@@ -2,14 +2,7 @@
   <div class="home">
     <article class="article article-container">
       <div class="article article-banner">
-        <div class="banner banner-container">
-          <div
-            class="banner banner-img"
-            :style="{
-              'background-image': `url(${require('@/assets/img/banner/Banner-0.jpg')})`
-            }"
-          />
-        </div>
+        <Banner />
       </div>
       <div class="article article-header">
         <h1 class="title font-black">七股魚塭的發電夢</h1>
@@ -554,6 +547,8 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+
+import Banner from "@/components/layout/Banner.vue";
 import Footer from "@/components/layout/Footer.vue";
 
 interface ChapterArg {
@@ -565,6 +560,7 @@ interface ChapterArg {
 
 @Component({
   components: {
+    Banner,
     Footer
   }
 })
