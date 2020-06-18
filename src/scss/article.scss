@@ -67,6 +67,19 @@
       font-size: 28px;
       letter-spacing: 1pt;
       line-height: 1.4;
+
+      &.psedo-title {
+        position: relative;
+        display: inline;
+
+        > span {
+          display: none;
+        }
+
+        > img {
+          width: 100%;
+        }
+      }
     }
 
     .paragraph {
