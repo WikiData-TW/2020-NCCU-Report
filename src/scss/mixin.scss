@@ -1,7 +1,7 @@
 @mixin imgBackground {
   background-size: cover;
-  background-position: center center;
-  background-repeat: repeat;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @mixin altImgBackground {

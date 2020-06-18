@@ -15,10 +15,14 @@
         @include altImgBackground;
         position: absolute;
         height: 800px;
-        width: 120%;
+        width: 140%;
         margin-top: 0;
         margin-left: -4rem;
         z-index: 0;
+
+        @supports not (-moz-animation: none) {
+          background-size: initial;
+        }
       }
 
       > .content {

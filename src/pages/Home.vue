@@ -36,10 +36,12 @@
         >
           <!-- <img class="alt-bg" src="@/assets/img/BG1.jpg" alt="" /> -->
           <div
+            ref="chapter-1"
             class="alt-bg"
             :style="{
               'background-image': `url(${require('@/assets/img/BG1.jpg')})`,
-              transform: `translateX(${chapterOffsetLeft}px)`
+              transform: `translateX(${chapterOneOffsetLeft}px)`,
+              filter: `grayscale(${chapterOneGrayscale})`
             }"
           />
           <div class="content">
@@ -62,7 +64,7 @@
             年綠能發電要占比達
             20%；同年度，光電預計要占再生能源的發電量高達四成。太陽能極可能是未來的綠電主力。
           </p>
-          <p class="paragraph">&lt;% Chart %&gt;</p>
+          <!-- <p class="paragraph">&lt;% Chart %&gt;</p> -->
           <h2 class="subtitle font-bold" id="太陽光電推動目標容量配比差異">
             太陽光電推動目標容量配比差異
           </h2>
@@ -406,7 +408,8 @@ import { Component, Vue } from "vue-property-decorator";
 
 @Component
 export default class Home extends Vue {
-  private chapterOffsetLeft = 0;
+  private chapterOneOffsetLeft = 0;
+  private chapterOneGrayscale = 0;
 
   private mounted(): void {
     window.addEventListener("scroll", this.scrollHandler);
@@ -415,10 +418,15 @@ export default class Home extends Vue {
   private scrollHandler(): void {
     const scroll = document.documentElement.scrollTop;
     const screenHeight = document.documentElement.clientHeight;
-    const accr = 0.6;
+    const chapterOneOffset = (this.$refs["chapter-1"] as HTMLElement).offsetTop;
+    const accr = 0.8;
 
     if (scroll <= screenHeight * 2) {
-      this.chapterOffsetLeft = scroll * accr * -1;
+      this.chapterOneOffsetLeft = scroll * accr * -1;
+    }
+
+    if (scroll >= chapterOneOffset - 400 && scroll < chapterOneOffset + 800) {
+      this.chapterOneGrayscale = (scroll - chapterOneOffset - 400) / 800 + 1;
     }
   }
 }
