@@ -68,7 +68,7 @@
       letter-spacing: 1pt;
       line-height: 1.4;
 
-      &.psedo-title {
+      &.pseudo-title {
         position: relative;
         display: inline;
 
@@ -119,11 +119,19 @@
     &-caption {
       margin: 1rem 0;
       font-size: 15.6px;
+      line-height: 1.4;
       text-align: center;
+      color: $dark-1;
+
+      > span {
+        font-family: inherit;
+      }
     }
   }
 
   &-line-through {
+    position: relative;
+    width: 100%;
     display: flex;
     flex-direction: column;
     @include flexBoxCenter;

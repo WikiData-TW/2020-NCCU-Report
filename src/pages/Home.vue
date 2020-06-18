@@ -73,7 +73,7 @@
               class="article article-figure-img"
               alt="太陽光電推動目標容量配比差異"
             />
-            <figcaption class="article article-figure-caption">
+            <figcaption class="article article-figure-caption font-sans">
               <span>不同類型的太陽光電推動目標容量配比差異</span>
             </figcaption>
           </figure>
@@ -97,9 +97,10 @@
             除了未考量光電所需的土地面積，戴秀雄亦表示，能源局主導釋出種電土地，卻僅粗略劃分不利耕種區、水域空間，沒有考慮位置、原土地使用方式、設施裝置形式等，「目前釋出的區位條件極度不足，根本沒有思索到底光電適合什麼地點。」
           </p>
           <p class="paragraph">
-            漁電共生一片美意，政府盼推展再生能源與養殖漁業升級，讓綠電與魚塭生態共榮。然而，選址未經審慎評估，反讓光電業者與當地養殖戶拉鋸。七股已成為全台各處地面型光電設施的縮影。
+            漁電共生一片美意，政府盼推展再生能源與養殖漁業升級，讓綠電與魚塭生態共榮。然而，選址未經審慎評估，反讓光電業者與當地養殖戶拉鋸。七股已成為全臺各處地面型光電設施的縮影。
           </p>
         </div>
+        <hr class="article article-line-through" />
       </div>
       <div class="article article-part">
         <div
@@ -119,30 +120,37 @@
               不再「黑琵」？太陽能板建置恐不利七股生態
             </h1>
             <p class="paragraph">
-              台南七股是全世界最大的黑面琵鷺聚集地，如今每年有 4
-              千多隻黑面琵鷺來台過冬。國際級濕地受國家公權力保護，不得任意開發；但一條路寬
+              臺南七股是全世界最大的黑面琵鷺聚集地，如今每年有 4
+              千多隻黑面琵鷺來臺過冬。國際級濕地受國家公權力保護，不得任意開發；但一條路寬
               20
               公尺的柏油路外，漁民賴以為生的文蛤養殖池卻可能面臨大量太陽能板的進駐，生態岌岌可危。
             </p>
           </div>
         </div>
         <div class="spotlight spotlight-reader">
-          <p class="paragraph">&lt;% InteractiveMap %&gt;</p>
+          <!-- <p class="paragraph">&lt;% InteractiveMap %&gt;</p> -->
           <p class="paragraph">
-            七股魚塭雖不屬於一級保護區，卻是黑面琵鷺來台過冬時主要的覓食區。台南市野鳥學會總幹事林岱瑢指出，黑面琵鷺飛抵臺灣後，會先在台江國家公園內棲息，經過充足的休息後，再至附近的魚塭尋找食物。
+            七股魚塭雖不屬於一級保護區，卻是黑面琵鷺來臺過冬時主要的覓食區。臺南市野鳥學會總幹事林岱瑢指出，黑面琵鷺飛抵臺灣後，會先在臺江國家公園內棲息，經過充足的休息後，再至附近的魚塭尋找食物。
           </p>
-          <p class="paragraph">
+          <figure class="article article-figure">
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/bird.png"
-              alt='{title:"黑面琵鷺照片",description:"成群的黑面琵鷺在七股魚塭地覓食，這裡的淺坪漁場適合候鳥等物種停棲，儼然成為生態寶地。",creator:"圖／台南市野鳥學會提供",style:"figure-img"}'
+              src="@/assets/img/bird.jpg"
+              class="article article-figure-img"
+              alt="黑面琵鷺照片"
             />
-          </p>
+            <figcaption class="article article-figure-caption font-sans">
+              <span
+                >成群的黑面琵鷺在七股魚塭地覓食，這裡的淺坪漁場適合候鳥等物種停棲，儼然成為生態寶地。｜圖／臺南市野鳥學會提供</span
+              >
+            </figcaption>
+          </figure>
           <p class="paragraph">
             出於海鳥的生物習性，黑面琵鷺偏好在開闊水域活動，並常以文蛤養殖池中的小魚、小蝦為食。林岱瑢解釋，在魚塭上方架設太陽能板，若黑面琵鷺誤將面板的反光當作水面的波光，牠們在降落時可能因此撞到太陽能板而受傷。此外，黑面琵鷺飛行時俯瞰的視野也可能遭太陽能板阻擋，導致牠們誤判魚塭不存在，進而喪失主要的食物來源。
           </p>
           <p class="paragraph">
             另外，太陽能板遮光亦可能讓水中的藻類無法進行光合作用，影響魚塭的「底泥」。林岱瑢說：「底泥中居住的昆蟲，像是沙蠶和紅蟲，牠們是所有動物的食物來源，也是影響生態最大的。」若位於食物鏈底層的生物減少，上端的掠食者如黑面琵鷺等海鳥首當其衝，七股也許將不再是黑面琵鷺最大的度冬之地。
           </p>
+          <hr class="article article-line-through" />
         </div>
       </div>
       <div class="article article-part">
@@ -176,21 +184,23 @@
           </p>
           <p class="paragraph">
             然而漁電共生實行後，土地被轉租給業者、漁民無地可養殖，這光景也許將不復存在。魚寮化身為作戰會議室，70、80
-            位居民共組「七股土地自救會」，綁上頭巾、備好蛤殼、搭上夜半客運，在行政院、台南市政府留下他們的怒吼聲：「求生存！」漁民擔憂道：「心情七上八下啊，想說帶這麼多人去，政府不知道有沒有在聽？」但面對消極的政府，最終他們只能回到魚寮，泡茶、喝茶、日復一日，陷入漫長等待。
+            位居民共組「七股土地自救會」，綁上頭巾、備好蛤殼、搭上夜半客運，在行政院、臺南市政府留下他們的怒吼聲：「求生存！」漁民擔憂道：「心情七上八下啊，想說帶這麼多人去，政府不知道有沒有在聽？」但面對消極的政府，最終他們只能回到魚寮，泡茶、喝茶、日復一日，陷入漫長等待。
           </p>
           <p class="paragraph">
             「這次太陽落下之後，不知道還能不能看到七股的夕陽？」
           </p>
-          <hr />
-          <p class="paragraph">
+          <hr class="article article-line-through" />
+          <h2 class="subtitle pseudo-title">
+            <span>蛤？光電商要來七股劃地了喔！</span>
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/clamsline1.png"
-              alt='{title:"蛤？光電商要來七股劃地了喔！",style:"pseudo-title"}'
+              src="@/assets/img/pseudo-title/clamsline1.png"
+              alt="蛤？光電商要來七股劃地了喔！"
+              class="pseudo-title"
             />
-          </p>
+          </h2>
           <p class="paragraph">
             107
-            年，政府開放業者自行圈地、劃設漁電共生專區。台鹽綠能作為光電業者與當地住民的仲介平台，與地主承租並整合土地，提交審核後供光電業者進駐，契約一簽就是
+            年，政府開放業者自行圈地、劃設漁電共生專區。臺鹽綠能作為光電業者與當地住民的仲介平臺，與地主承租並整合土地，提交審核後供光電業者進駐，契約一簽就是
             20 年。截至目前，七股已有約 450 公頃土地被劃設為漁電共生案場。
           </p>
           <p class="paragraph">
@@ -199,23 +209,33 @@
               href="%E5%8D%B3%E7%82%BA%E9%80%81%E9%9B%BB%E7%B7%9A%E3%80%82%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%94%A2%E7%94%9F%E9%9B%BB%E5%8A%9B%E5%BE%8C%EF%BC%8C%E5%85%88%E7%B6%93%E9%99%8D%E5%A3%93%EF%BC%8C%E5%86%8D%E9%80%8F%E9%81%8E%E9%A5%8B%E7%B7%9A%E5%B0%87%E9%9B%BB%E5%8A%9B%E8%BC%B8%E9%80%81%E8%87%B3%E5%90%84%E5%9C%B0%E3%80%82"
               >^2</a
             >的資源，若以分散的管線匯整電力，
-            相較起統一饋線須耗費更多經費。此外，台南市政府農業局漁業科指出，業者亦會考量較便宜的土地價格。
+            相較起統一饋線須耗費更多經費。此外，臺南市政府農業局漁業科指出，業者亦會考量較便宜的土地價格。
           </p>
           <p class="paragraph">
             因此，光電業者規劃時將七股列為優先實施漁電共生的案場。七股沿海土地資源保護協會會長、當地漁民楊惠欽解釋，七股以養殖文蛤為主，文蛤池面積廣大又分布集中，對光電業者而言較容易整合。而相對於彰化、雲林、嘉義等區域的文蛤養殖池，七股因產量較低，地價也便宜上百萬。
           </p>
-          <p class="paragraph">
+          <figure class="article article-figure">
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/man1.png"
-              alt='{title:"七股沿海土地資源保護協會會長楊惠欽",description:"七股沿海土地資源保護協會會長楊惠欽講述當地文蛤養殖特點，因養殖密度低，產量相較其他區域少，因此地價便宜，吸引業者紛紛進駐。",creator:"圖／萬巧蓉攝",style:"figure-img"}'
+              src="@/assets/img/fisherman1.jpg"
+              class="article article-figure-img"
+              alt="七股沿海土地資源保護協會會長楊惠欽"
             />
-          </p>
-          <p class="paragraph">
+            <figcaption class="article article-figure-caption font-sans">
+              <span
+                >七股沿海土地資源保護協會會長楊惠欽講述當地文蛤養殖特點，因養殖密度低，產量相較其他區域少，因此地價便宜，吸引業者紛紛進駐。｜圖／萬巧蓉
+                攝</span
+              >
+            </figcaption>
+          </figure>
+          <hr class="article article-line-through" />
+          <h2 class="subtitle pseudo-title">
+            <span>蛤？地被租走了漁民怎麼辦！</span>
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/clamsline2.png"
-              alt='{title:"蛤？地被租走了漁民怎麼辦！",style:"pseudo-title"}'
+              src="@/assets/img/pseudo-title/clamsline2.png"
+              alt="蛤？地被租走了漁民怎麼辦！"
+              class="pseudo-title"
             />
-          </p>
+          </h2>
           <p class="paragraph">
             《作業要點》中亦規範，推動漁電共生專區至少須取得七成地主及原承租養殖戶的同意。但就算地主和漁民都已簽署同意書，就代表真的同意了嗎？
           </p>
@@ -228,26 +248,36 @@
           <p class="paragraph">
             而七成同意的門檻，反成變相剝削的開端。部分地主希望賺取租金，強迫漁民簽署「養殖戶意向同意書」，漁民若不願配合，地主便要脅將立刻終止租約。漁民郭永慶無奈地說：「不簽你就沒文蛤做了，簽了至少現在可以做。」儘管同意書中明文規定應優先保障原養殖戶承租，地主仍可以選擇不續約，以養殖人頭替代原承租戶。
           </p>
-          <p class="paragraph">
+          <figure class="article article-figure">
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/man2.JPG"
-              alt='{title:"漁民郭永慶",description:"漁民郭永慶批評政府用以確保承租漁民意願的規範，實際上無法如實保障他們的權利，僅淪為空談。",creator:"圖／陳子瑜攝",style:"figure-img"}'
+              src="@/assets/img/fisherman2.jpg"
+              class="article article-figure-img"
+              alt="漁民郭永慶"
             />
-          </p>
+            <figcaption class="article article-figure-caption font-sans">
+              <span
+                >漁民郭永慶批評政府用以確保承租漁民意願的規範，實際上無法如實保障他們的權利，僅淪為空談。｜圖／陳子瑜
+                攝</span
+              >
+            </figcaption>
+          </figure>
           <p class="paragraph">
-            對此，台鹽綠能則提出修正，在土地交易完成後便與漁民簽署漁場使用契約，一次簽約五年。未來漁民只須以原先租金的六成價格繳付漁場使用費，便可繼續養殖、完成「漁為主、電為輔」的共存願景。郭政瑋強調，台鹽綠能自
+            對此，臺鹽綠能則提出修正，在土地交易完成後便與漁民簽署漁場使用契約，一次簽約五年。未來漁民只須以原先租金的六成價格繳付漁場使用費，便可繼續養殖、完成「漁為主、電為輔」的共存願景。郭政瑋強調，臺鹽綠能自
             107 年起舉辦超過 170
             場說明會，每張專案設計圖、每個案場都會取得漁民的同意，並保障其工作權。
           </p>
-          <p class="paragraph">
+          <hr class="article article-line-through" />
+          <h2 class="subtitle pseudo-title">
+            <span>蛤？說好的產量七成是彈性的？</span>
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/clamsline3.png"
-              alt='{title:"蛤？說好的產量七成是彈性的？",style:"pseudo-title"}'
+              src="@/assets/img/pseudo-title/clamsline3.png"
+              alt="蛤？說好的產量七成是彈性的？"
+              class="pseudo-title"
             />
-          </p>
+          </h2>
           <p class="paragraph">
             縱使漁民能保有工作，漁民亦擔憂太陽能板遮蔽魚塭，可能影響文蛤產量。農委會規範，漁電共生的太陽能板遮蔽率必須小於
-            40％，同時漁獲量須維持原有的70%以上。但郭永慶質疑，「極端氣候文蛤都已經很難養了，怎麼可能六成（沒被遮蔽）的土地養出七成的產量？」台南市政府農業局漁業科則回應，七成產量是彈性數字，關注實際產值更為重要。為此，養殖戶應加強漁場管理與環境改善。
+            40％，同時漁獲量須維持原有的70%以上。但郭永慶質疑，「極端氣候文蛤都已經很難養了，怎麼可能六成（沒被遮蔽）的土地養出七成的產量？」臺南市政府農業局漁業科則回應，七成產量是彈性數字，關注實際產值更為重要。為此，養殖戶應加強漁場管理與環境改善。
           </p>
           <p class="paragraph">
             因此 106 年起，農委會水產試驗所共進行三次模擬試驗，更於 107
@@ -257,14 +287,22 @@
             以上產量。農委會水試所海水繁養殖研究中心主任葉信利表示，漁電共生是全世界首見，因此缺乏他國案例借鑑，「雖然目前做的實驗還不是很完整，但有一些基本的數據可以參考。」108
             年，水試所進一步在七股推動「漁電共生試驗育成基地」，徵求業者進駐試行，盼及早投入實體營運。
           </p>
-          <p class="paragraph">
+          <figure class="article article-figure">
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/house.jpg"
-              alt='{title:"漁電共生的棚架式太陽能板",description:"行政院農業委員會水產試驗所於106年起，在雲林台西試驗場進行漁電共生模擬實驗。圖為該處設置的棚架式太陽能板，用以測試不同遮蔽率對於養殖物種的影響。 ",creator:"圖／農委會水試所提供",style:"figure-img"}'
+              src="@/assets/img/house.jpg"
+              class="article article-figure-img"
+              alt="漁電共生的棚架式太陽能板"
             />
-          </p>
+            <figcaption class="article article-figure-caption font-sans">
+              <span
+                >行政院農業委員會水產試驗所於 106
+                年起，在雲林臺西試驗場進行漁電共生模擬實驗。圖為該處設置的棚架式太陽能板，用以測試不同遮蔽率對於養殖物種的影響。｜圖／農委會水試所
+                提供</span
+              >
+            </figcaption>
+          </figure>
           <p class="paragraph">
-            台南市政府農業局漁業科則表示，地方政府須申報文蛤的放養量，等上市時再重新核對，以數據確保有七成產量。若發現有「假養殖真種電」的情況，將撤銷該地的農業設施容許使用<a
+            臺南市政府農業局漁業科則表示，地方政府須申報文蛤的放養量，等上市時再重新核對，以數據確保有七成產量。若發現有「假養殖真種電」的情況，將撤銷該地的農業設施容許使用<a
               href="%E8%BE%B2%E6%B0%91%E7%82%BA%E5%9B%A0%E6%87%89%E8%BE%B2%E6%A5%AD%E7%94%9F%E7%94%A2%E6%89%80%E9%9C%80%EF%BC%8C%E5%9C%A8%E8%BE%B2%E5%9C%B0%E4%B8%8A%E4%BE%9D%E4%B8%8D%E5%90%8C%E9%9D%A2%E7%A9%8D%E5%8F%8A%E5%AF%A6%E9%9A%9B%E7%B6%93%E7%87%9F%E9%81%8B%E7%94%A8%E8%A8%AD%E7%BD%AE%E8%BE%B2%E6%A5%AD%E8%A8%AD%E6%96%BD%EF%BC%8C%E5%89%87%E9%A0%88%E4%BE%9D%E6%93%9A%E3%80%8A%E7%94%B3%E8%AB%8B%E8%BE%B2%E6%A5%AD%E7%94%A8%E5%9C%B0%E4%BD%9C%E8%BE%B2%E6%A5%AD%E8%A8%AD%E6%96%BD%E5%AE%B9%E8%A8%B1%E4%BD%BF%E7%94%A8%E5%AF%A9%E6%A0%B8%E8%BE%A6%E6%B3%95%E3%80%8B%E5%90%91%E5%9C%B0%E6%96%B9%E6%94%BF%E5%BA%9C%E6%8F%90%E5%87%BA%E7%94%B3%E8%AB%8B%EF%BC%8C%E5%AF%A9%E6%A0%B8%E9%80%9A%E9%81%8E%E5%BE%8C%E7%8D%B2%E5%BE%97%E8%BE%B2%E6%A5%AD%E8%A8%AD%E6%96%BD%E5%AE%B9%E8%A8%B1%E4%BD%BF%E7%94%A8%E3%80%82"
               >^3</a
             >。「損失最大的是綠能業者。」他亦直言，若漁電共生設置狀況不佳，光電業者投資的億元資金便可能因撤照而一夕作廢，因此業者更希望能同時保障養殖產量及發電效能。
@@ -272,6 +310,7 @@
           <p class="paragraph">
             然而郭永慶指出，光電業者若遭撤照，反而可能向養殖戶求償。當地地主兼漁民黃清泉補充，若遭遇颱風、淹水等天災，發電量不如預期，業者甚至可能要求地主減租。郭永慶進一步質疑水試所的養殖試驗，「我們不能參與他的檢驗結果，實驗報告結果隨便政府在講的。」他強調，政府應實際在魚塭劃設漁電共生示範區，確認無虞再讓其他地區實行。
           </p>
+          <hr class="article article-line-through" />
         </div>
       </div>
       <div class="article article-part">
@@ -292,7 +331,7 @@
               七股環境條件嚴峻<br />地貌與生態特殊性成選址關鍵
             </h1>
             <p class="paragraph">
-              郭永慶站在竹筏上撐篙，輕輕地划過魚塭水面，他以多年經驗目測魚塭水質、判斷水深30公分下的文蛤生長狀況。在全台文蛤產量中，七股就占了三成，這裡更是全台唯一不抽取地下水養殖的地區。楊惠欽感嘆道：「西海岸幾乎開發的差不多了，只剩七股保留原始地貌。」
+              郭永慶站在竹筏上撐篙，輕輕地划過魚塭水面，他以多年經驗目測魚塭水質、判斷水深30公分下的文蛤生長狀況。在全臺文蛤產量中，七股就占了三成，這裡更是全臺唯一不抽取地下水養殖的地區。楊惠欽感嘆道：「西海岸幾乎開發的差不多了，只剩七股保留原始地貌。」
               為配合土地生命週期，當地漁民採取引海水灌溉的淺坪低密度養殖法，友善利用資源，並與當地生態共構人地互存的景象。
             </p>
           </div>
@@ -301,12 +340,19 @@
           <p class="paragraph">
             當地居民愛護這片淨土的決心有歷史脈絡可循。約20年前，七股被財團相中，欲建造七輕石化廠、煉鋼廠，之後亦曾計畫興建焚化爐，都被在地居民擋下。七股居民自救會會長黃嚴國回憶過往抗爭經驗，「我當初反對七輕就是用生命在擋、就是不要這塊地被汙染，守住了就覺得很值得。」如今七股再次被選為開發地，漁民擔心從前守護七股的努力將前功盡棄。
           </p>
-          <p class="paragraph">
+          <figure class="article article-figure">
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/man3.JPG"
-              alt='{title:"七股居民自救會會長黃嚴國",description:"七股居民自救會會長黃嚴國講述地方歷史，提及過去一度計畫要被開發的七股，是如何為當地居民守護、成為西海岸僅剩的淨土。",creator:"圖／萬巧蓉攝",style:"figure-img"}'
+              src="@/assets/img/fisherman3.jpg"
+              class="article article-figure-img"
+              alt="七股居民自救會會長黃嚴國"
             />
-          </p>
+            <figcaption class="article article-figure-caption">
+              <span
+                >七股居民自救會會長黃嚴國講述地方歷史，提及過去一度計畫要被開發的七股，是如何為當地居民守護、成為西海岸僅剩的淨土。｜圖／萬巧蓉
+                攝</span
+              >
+            </figcaption>
+          </figure>
           <p class="paragraph">
             雖然漁電共生與以往開發案性質不同，強調發展乾淨能源並與養殖漁業互利，然而，居民擔憂漁電共生與七股傳統的淺坪<a
               href="%E7%94%B1%E5%BB%A2%E6%A3%84%E8%BE%B2%E8%80%95%E5%9C%B0%E6%94%B9%E5%BB%BA%E7%9A%84%E9%AD%9A%E5%A1%AD%E6%B0%B4%E6%B7%B1%E5%83%8530%E8%87%B350%E5%85%AC%E5%88%86%EF%BC%8C%E9%9D%A2%E7%A9%8D%E5%A4%A7%E4%B8%94%E6%94%BE%E9%A4%8A%E5%AF%86%E5%BA%A6%E4%BD%8E%EF%BC%8C%E6%BC%81%E6%B0%91%E5%AE%9A%E6%99%82%E9%96%8B%E5%95%9F%E9%96%98%E9%96%80%E6%8F%9B%E6%B0%B4%EF%BC%8C%E8%AE%93%E6%B5%B7%E6%B0%B4%E6%B5%81%E9%80%B2%E9%AD%9A%E5%A1%AD%E3%80%82%E4%BC%91%E9%A4%8A%E6%9C%9F%E6%99%82%E6%94%BE%E4%BD%8E%E6%B0%B4%E4%BD%8D%EF%BC%8C%E6%81%B0%E5%A5%BD%E9%81%A9%E5%90%88%E9%BB%91%E9%9D%A2%E7%90%B5%E9%B7%BA%E7%AD%89%E9%B3%A5%E9%A1%9E%E5%81%9C%E6%A3%B2%E8%A6%93%E9%A3%9F%EF%BC%8C%E7%82%BA%E5%8F%8B%E5%96%84%E7%92%B0%E5%A2%83%E7%9A%84%E9%A4%8A%E6%AE%96%E5%B7%A5%E6%B3%95%E3%80%82"
@@ -319,18 +365,22 @@
             20
             年的七股。除了鹽害，七股也有風勢大、颱風侵襲等恐損壞太陽能板的問題。
           </p>
-          <p class="paragraph">
+          <hr class="article article-line-through" />
+          <h2 class="subtitle pseudo-title">
+            <span>蛤？業者要投資養殖漁業升級耶！</span>
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/clamsline4.png"
-              alt='{title:"蛤？業者要投資養殖漁業升級耶！",style:"pseudo-title"}'
+              src="@/assets/img/pseudo-title/clamsline4.png"
+              alt="蛤？業者要投資養殖漁業升級耶！"
+              class="pseudo-title"
             />
-          </p>
+          </h2>
           <p class="paragraph">
             對此，養殖漁業出身的旭康漁業顧問公司總經理黃國良提出不同見解。在他的規劃下，太陽能板將強化成雙層玻璃，避免鏽蝕。此外，建置太陽能板的方式也會配合每個漁場的地型與養殖物種而有不同設計，他批評，「外面的光電業者都是一個模板一直套。」
           </p>
           <p class="paragraph">
-            黃國良期許自己做光電的同時能升級漁場基礎建設。他指出，臺灣養殖漁業缺乏投資，所以無法與國際競爭，「承租戶怎麼可能砸錢去幫地主做（養殖漁業基礎建設）。」因此黃國良認為若能適切推行漁電共生、為漁場設備升級，便能幫助本土養殖漁業。台鹽綠能亦承諾將養殖戶繳交的部分租金與光電業者獲利投入至公共基金，用以協助導入新形態養殖技術及科技化養殖設備。郭政瑋表示，透過強化魚塭建設、推廣漁業產銷履歷等作為，盼能創造光電與養殖漁業雙贏局面。
+            黃國良期許自己做光電的同時能升級漁場基礎建設。他指出，臺灣養殖漁業缺乏投資，所以無法與國際競爭，「承租戶怎麼可能砸錢去幫地主做（養殖漁業基礎建設）。」因此黃國良認為若能適切推行漁電共生、為漁場設備升級，便能幫助本土養殖漁業。臺鹽綠能亦承諾將養殖戶繳交的部分租金與光電業者獲利投入至公共基金，用以協助導入新形態養殖技術及科技化養殖設備。郭政瑋表示，透過強化魚塭建設、推廣漁業產銷履歷等作為，盼能創造光電與養殖漁業雙贏局面。
           </p>
+          <hr class="article article-line-through" />
         </div>
       </div>
       <div class="article article-part">
@@ -367,6 +417,7 @@
           <p class="paragraph">
             楊惠欽指出，綠電政策立意良善，但若考量不周導致引起地方爭議，以失敗告終，民眾反而會怪罪綠電。吳新榮則回溯爭議的源頭，「我們這邊的人不是不贊成漁電共生，而是認為要找比較適合的地方做。」
           </p>
+          <hr class="article article-line-through" />
         </div>
       </div>
       <div class="article article-part">
@@ -380,33 +431,36 @@
           <h2 class="subtitle font-bold font-sans" id="現行漁電共生申請流程">
             現行漁電共生申請流程
           </h2>
+          <figure class="article article-figure float float-left">
+            <img
+              src="@/assets/img/applicate-flow.png"
+              class="article article-figure-img"
+              alt="現行漁電共生申請流程"
+            />
+            <figcaption class="article article-figure-caption">
+              <span>資料來源／法務部全球法規資料庫</span>
+            </figcaption>
+          </figure>
           <p class="paragraph">
             若希望選出適切的案場推行漁電共生，勢必需要審核機制把關。現行地面型光電設施的審核流程由業者發動，業者先整合土地後，再遞交申請該地為種電案場，審核則由相關的各政府局處負責。不過，地球公民基金會主任李翰林指出此套過程的缺失，即是沒有機關負責審查業者提交的場址。李翰林進一步說明，選址是案場規劃的第一步，若無任何管控，後續自然易有爭議。
           </p>
           <p class="paragraph">
-            台南市農業局漁業科說：「在（選址爭議）開始發展前我們確實沒有想到，很單純地想說在魚塭上面加光電板而已。」七股便是在忽視選址的政策漏洞下成為漁電共生案場，引發爭端。
+            臺南市農業局漁業科說：「在（選址爭議）開始發展前我們確實沒有想到，很單純地想說在魚塭上面加光電板而已。」七股便是在忽視選址的政策漏洞下成為漁電共生案場，引發爭端。
           </p>
-          <p class="paragraph">
+          <hr class="article article-line-through" />
+          <h2 class="subtitle pseudo-title">
+            <span>蛤？環境與社會檢核係蝦米？</span>
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/p0527.png"
-              alt='{title:"現行漁電共生申請流程",style:"float-left"}'
+              src="@/assets/img/pseudo-title/clamsline5.png"
+              alt="蛤？環境與社會檢核係蝦米？"
+              class="pseudo-title"
             />
-          </p>
+          </h2>
           <p class="paragraph">
-            <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/clamsline5.png"
-              alt='{title:"蛤？環境與社會檢核係蝦米？",style:"pseudo-title"}'
-            />
-          </p>
-          <p class="paragraph">
-            事實上，台灣的開發案多需經過「環境影響評估」（以下簡稱環評），開發單位得於評估後提出對策，否則無法獲得開發許可。然而，光電設施被認為對環境的衝擊較小，因此七股養殖地便不適用於環評。而根據《作業要點》規定，架設太陽能板前應進行可行性評估，但僅限於第一級環境敏感地區<a
+            事實上，臺灣的開發案多需經過「環境影響評估」（以下簡稱環評），開發單位得於評估後提出對策，否則無法獲得開發許可。然而，光電設施被認為對環境的衝擊較小，因此七股養殖地便不適用於環評。而根據《作業要點》規定，架設太陽能板前應進行可行性評估，但僅限於第一級環境敏感地區<a
               href="%E5%A6%82%E8%87%AA%E7%84%B6%E4%BF%9D%E7%95%99%E5%8D%80%E3%80%81%E9%87%8E%E7%94%9F%E5%8B%95%E7%89%A9%E4%BF%9D%E8%AD%B7%E5%8D%80%E3%80%81%E7%89%B9%E5%AE%9A%E6%B0%B4%E5%9C%9F%E4%BF%9D%E6%8C%81%E5%8D%80%E5%8F%8A%E5%8F%A4%E8%B9%9F%E4%BF%9D%E5%AD%98%E5%8D%80%E7%AD%89%E3%80%82"
               >^5</a
             >，並無涵括生態熱點等其他可能受衝擊的地帶。
-          </p>
-          <p class="paragraph">
-            為彌補審核制度的不足，並解決地面型光電設施的選址疑慮，七股居民與環團草擬「環境與社會檢核」（以下簡稱「環社檢核」），檢核項目包括環境衝擊、社會影響、民眾參與及資訊公開等部分，供政府與業者參考。經過民間與經濟部的磋商後，今年四月，環社檢核
-            1.0 版本出爐。
           </p>
           <h2
             class="subtitle font-bold font-sans"
@@ -414,18 +468,33 @@
           >
             為什麼七股要推動環社檢核
           </h2>
-          <p class="paragraph">
+          <figure class="article article-figure">
             <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/three.png"
-              alt='{title:"七股推動環社檢核流程",creator:"資料來源／行政院環保署、經濟部、農委會",style:"figure-img"}'
+              src="@/assets/img/consult-flow.png"
+              class="article article-figure-img"
+              alt="七股推動環社檢核流程"
             />
-          </p>
+            <figcaption class="article article-figure-caption">
+              <span
+                >七股推動環社檢核流程｜資料來源／行政院環保署、經濟部、農委會</span
+              >
+            </figcaption>
+          </figure>
           <p class="paragraph">
-            環社檢核將被納入光電專區審核流程，楊惠欽解釋，環團力求能藉此篩出低影響、適建光電的區位，成為示範案場。「讓沒有爭議的（地方）先做，對地面型的推展速度才會快。」他表示，環團也盼望綠電產量提升，但仍須要求政府更細緻地規範選址，並重視地方公民的參與。
+            為彌補審核制度的不足，並解決地面型光電設施的選址疑慮，七股居民與環團草擬「環境與社會檢核」（以下簡稱「環社檢核」），檢核項目包括環境衝擊、社會影響、民眾參與及資訊公開等部分，供政府與業者參考。經過民間與經濟部的磋商後，今年四月，環社檢核
+            1.0 版本出爐。
           </p>
-          <p class="paragraph">
-            楊惠欽強調，環社檢核也能讓光電業者不踩雷區，以免投資與整合完成，卻發現案場有種電疑慮。業者為了要符合環社檢核的項目，必得對選址有更多元的人文、生態面考量，避免七股的困境在他處重演。
-          </p>
+          <hr class="article article-line-through" />
+          <figure class="article article-figure float float-right">
+            <img
+              src="@/assets/img/future-applicate-flow.png"
+              class="article article-figure-img"
+              alt="未來魚電共生專區申請流程"
+            />
+            <figcaption class="article article-figure-caption">
+              <span>資料來源／法務部全球法規資料庫</span>
+            </figcaption>
+          </figure>
           <h2
             class="subtitle font-bold font-sans"
             id="未來魚電共生專區申請流程"
@@ -433,11 +502,12 @@
             未來魚電共生專區申請流程
           </h2>
           <p class="paragraph">
-            <img
-              src="https://nas.limeishu.org.tw/Share/finalweb/last.png"
-              alt='{title:"未來漁電共生申請流程",style:"float-left"}'
-            />
+            環社檢核將被納入光電專區審核流程，楊惠欽解釋，環團力求能藉此篩出低影響、適建光電的區位，成為示範案場。「讓沒有爭議的（地方）先做，對地面型的推展速度才會快。」他表示，環團也盼望綠電產量提升，但仍須要求政府更細緻地規範選址，並重視地方公民的參與。
           </p>
+          <p class="paragraph">
+            楊惠欽強調，環社檢核也能讓光電業者不踩雷區，以免投資與整合完成，卻發現案場有種電疑慮。業者為了要符合環社檢核的項目，必得對選址有更多元的人文、生態面考量，避免七股的困境在他處重演。
+          </p>
+          <hr class="article article-line-through" />
         </div>
       </div>
       <div class="article article-part">
@@ -458,22 +528,22 @@
               地面型光電選址怎麼做？
             </h1>
             <p class="paragraph">
-              近幾年，地面型光電面臨諸多爭議，使設置腳步緩慢。設施究竟蓋在哪裡好？我們統整地球公民基金會與政大地政學系助理教授戴秀雄的建議，形成一套選址評估的機制。透過這些步驟，盼能在推動太陽光電與能源轉型的同時，找到適合的區位，讓光電業者不碰壁，也能減少案場的環境與社會破壞，達成綠能台灣的目標。
+              近幾年，地面型光電面臨諸多爭議，使設置腳步緩慢。設施究竟蓋在哪裡好？我們統整地球公民基金會與政大地政學系助理教授戴秀雄的建議，形成一套選址評估的機制。透過這些步驟，盼能在推動太陽光電與能源轉型的同時，找到適合的區位，讓光電業者不碰壁，也能減少案場的環境與社會破壞，達成綠能臺灣的目標。
             </p>
           </div>
         </div>
         <div class="spotlight spotlight-reader">
-          <p class="paragraph">&lt;% Blueprint %&gt;</p>
+          <!-- <p class="paragraph">&lt;% Blueprint %&gt;</p> -->
         </div>
         <div class="spotlight spotlight-reader">
           <p class="paragraph">
             農委會於 109 年公布「較無社會及生態疑慮之漁電共生土地初步盤點」<a
               href="%E8%BE%B2%E5%A7%94%E6%9C%83%E7%9B%A4%E9%BB%9E%E5%85%A8%E5%9C%8B%E9%A4%8A%E6%AE%96%E5%8D%80%EF%BC%8C%E4%B8%A6%E5%A5%97%E7%96%8A11%E9%A1%9E%E7%94%9F%E6%85%8B%E6%95%8F%E6%84%9F%E5%9C%96%E8%B3%87%E5%8F%8A%E5%90%88%E6%B3%95%E3%80%81%E7%84%A1%E7%A7%9F%E8%B3%83%E9%97%9C%E4%BF%82%E7%9A%84%E5%9C%9F%E5%9C%B0%E3%80%82"
               >^6</a
-            >，顯示七股僅有2公頃土地較適合作為漁電共生案場。然而，早在選址的規劃盤點前，七股的案場申請面積已近450公頃。不只是七股，台東知本濕地、桃園埤塘、嘉義布袋鹽田等地的光電計畫也因選址疑慮產生不少爭議。
+            >，顯示七股僅有2公頃土地較適合作為漁電共生案場。然而，早在選址的規劃盤點前，七股的案場申請面積已近450公頃。不只是七股，臺東知本濕地、桃園埤塘、嘉義布袋鹽田等地的光電計畫也因選址疑慮產生不少爭議。
           </p>
           <p class="paragraph">
-            政府欲發展再生能源，並採友善環境的方式發電；七股居民殷切期盼能守護生態與人文特色。雙方共同在作一個永續台灣的夢，卻走上分歧的道路。七股敲響能源轉型政策的警鐘——綠電希望守護環境，但若推行不慎，可能成為破壞地方環境的雙面刃。政府應加緊腳步改善當前的規範與流程，別讓漁電共生淪為空談。
+            政府欲發展再生能源，並採友善環境的方式發電；七股居民殷切期盼能守護生態與人文特色。雙方共同在作一個永續臺灣的夢，卻走上分歧的道路。七股敲響能源轉型政策的警鐘——綠電希望守護環境，但若推行不慎，可能成為破壞地方環境的雙面刃。政府應加緊腳步改善當前的規範與流程，別讓漁電共生淪為空談。
           </p>
         </div>
       </div>
