@@ -24,6 +24,14 @@
           background-size: 200%;
         }
 
+        @supports (-webkit-touch-callout: none) {
+          background-attachment: local;
+        }
+
+        @supports (-webkit-touch-callout: none) {
+          background-size: cover;
+        }
+
         @media screen and (max-width: 1360px) {
           width: 100%;
           margin-left: calc((100vw - #{$article-width}) / 2 * -1);
