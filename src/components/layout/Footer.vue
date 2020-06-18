@@ -62,7 +62,9 @@
     </div>
     <div class="footer footer-copyright">
       <p v-for="unit in cooperates" :key="unit.name" class="footer footer-text">
-        {{ unit.name }}
+        <a :href="unit.link" target="_blank" rel="noopener noreferrer">
+          {{ unit.name }}
+        </a>
       </p>
       <br />
       <p class="footer footer-text">

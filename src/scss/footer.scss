@@ -57,6 +57,10 @@
 
     span {
       letter-spacing: 2pt;
+
+      @media screen and (max-width: 475px) {
+        letter-spacing: 1px;
+      }
     }
 
     > span {
@@ -89,7 +93,7 @@
     margin: 1rem auto;
     margin-top: 2rem;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.4;
 
     @media screen and (max-width: 475px) {
       text-align: left;
@@ -97,6 +101,6 @@
   }
 
   &-text {
-    margin: 6px 0;
+    margin: 10px 0;
   }
 }
