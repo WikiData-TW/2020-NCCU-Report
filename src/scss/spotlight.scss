@@ -1,7 +1,7 @@
 .spotlight {
   &-fullsize {
     display: flex;
-    width: 100vw;
+    width: 100%;
   }
 
   &-chapter-view {
@@ -26,10 +26,14 @@
 
         @supports (-webkit-touch-callout: none) {
           background-attachment: local;
+          background-size: cover;
         }
 
-        @supports (-webkit-touch-callout: none) {
-          background-size: cover;
+        @media not all and (min-resolution: 0.001dpcm) {
+          @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+            background-attachment: scroll;
+            background-size: cover;
+          }
         }
 
         @media screen and (max-width: 1360px) {
@@ -66,6 +70,10 @@
         background-color: $white;
         box-sizing: border-box;
         z-index: 1;
+
+        @media screen and (min-width: 1360.1px) {
+          margin-top: 200px;
+        }
 
         @media screen and (max-width: 1280px) {
           margin: calc((100vw - #{$article-width}) / 2) 0;

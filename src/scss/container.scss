@@ -5,4 +5,12 @@
   position: relative;
   flex-direction: column;
   align-items: center;
+
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+      @media screen and (min-width: 1360.1px) {
+        overflow-x: hidden;
+      }
+    }
+  }
 }
