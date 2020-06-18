@@ -122,4 +122,23 @@
       text-align: center;
     }
   }
+
+  &-line-through {
+    display: flex;
+    flex-direction: column;
+    @include flexBoxCenter;
+    appearance: none;
+    border: none;
+    margin: 4rem 0;
+    
+    &:before {
+      position: absolute;
+      content: '．．．．．';
+      font-size: 24px;
+      font-weight: 700;
+      color: $dark-2;
+      line-height: 1;
+      letter-spacing: 32px;
+    }
+  }
 }
