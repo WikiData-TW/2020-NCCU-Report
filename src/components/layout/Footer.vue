@@ -111,12 +111,12 @@ export default class Footer extends Vue {
   ];
   private contacts = [
     {
-      name: "政大學學報 Facebook 粉絲專頁",
+      name: "政大大學報 Facebook 粉絲專頁",
       link: "https://www.facebook.com/unewsonline/",
       icon: ["fab", "facebook-f"]
     },
     {
-      name: "政大學學報",
+      name: "政大大學報",
       link: "https://unews.nccu.edu.tw/",
       icon: ["fas", "newspaper"]
     }
