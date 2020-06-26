@@ -205,4 +205,10 @@
       z-index: 1;
     }
   }
+
+  &-footnote {
+    font-size: 12px;
+    color: $gray;
+    cursor: pointer;
+  }
 }
