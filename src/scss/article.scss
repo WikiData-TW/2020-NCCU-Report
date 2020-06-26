@@ -11,13 +11,9 @@
   }
 
   &-banner {
-    height: calc(100vh - 400px);
+    height: auto;
     width: 100%;
     z-index: 0;
-
-    @media screen and (max-width: 475px) {
-      height: calc(100vh - 375px);
-    }
   }
 
   &-header,
