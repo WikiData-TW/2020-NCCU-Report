@@ -59,7 +59,16 @@
             年綠能發電要占比達
             20%；同年度，光電預計要占再生能源的發電量高達四成。太陽能極可能是未來的綠電主力。
           </p>
-          <!-- <p class="paragraph">&lt;% Chart %&gt;</p> -->
+          <figure class="article article-figure small">
+            <img
+              src="@/assets/img/solar-10-years.png"
+              class="article article-figure-img"
+              alt="太陽光電推動目標容量配比差異"
+            />
+            <figcaption class="article article-figure-caption font-sans">
+              <span>不同類型的太陽光電推動目標容量配比差異</span>
+            </figcaption>
+          </figure>
           <figure class="article article-figure float float-right">
             <img
               src="@/assets/img/solar-panel-target.png"
