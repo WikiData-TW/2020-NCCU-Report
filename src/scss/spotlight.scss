@@ -12,12 +12,13 @@
       margin-bottom: 4rem;
 
       > .alt-bg {
-        @include altImgBackground;
+        @include imgBackground;
         position: absolute;
         height: 800px;
         width: 140%;
         margin-top: 0;
-        margin-left: -4rem;
+        margin-left: calc((100vw - #{$article-width}) / 2 * -1);
+        transform: none !important;
         z-index: 0;
 
         @supports not (-moz-animation: none) {
@@ -72,7 +73,7 @@
         z-index: 1;
 
         @media screen and (min-width: 1360.1px) {
-          margin-top: 200px;
+          margin-top: 2rem;
         }
 
         @media screen and (max-width: 1280px) {

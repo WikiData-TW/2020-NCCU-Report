@@ -597,19 +597,19 @@ export default class Home extends Vue {
     const targetOffset = (this.$refs[chapter.hook] as HTMLElement).offsetTop;
     const targetWidth = (this.$refs[chapter.hook] as HTMLElement).clientWidth;
 
-    if (scroll > targetOffset - screenHeight && screenWidth > 1360) {
-      const offset =
-        (scroll - (targetOffset - screenHeight)) *
-        (screenWidth / targetWidth) *
-        -1 *
-        1.44;
-      this.chaptersArgCollection[chapter.index - 1].offsetLeft =
-        offset * -1 > 800 ? -800 : offset;
-    }
+    // if (scroll > targetOffset - screenHeight && screenWidth > 1360) {
+    //   const offset =
+    //     (scroll - (targetOffset - screenHeight)) *
+    //     (screenWidth / targetWidth) *
+    //     -1 *
+    //     1.44;
+    //   this.chaptersArgCollection[chapter.index - 1].offsetLeft =
+    //     offset * -1 > 800 ? -800 : offset;
+    // }
 
-    if (scroll >= targetOffset - 200 && scroll < targetOffset + 800) {
+    if (scroll >= targetOffset && scroll < targetOffset + 400) {
       this.chaptersArgCollection[chapter.index - 1].grayscale =
-        (scroll - targetOffset - 200) / 800 + 1;
+        (scroll - targetOffset) / 400;
     }
   }
 }
